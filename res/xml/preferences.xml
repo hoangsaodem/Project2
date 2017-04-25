@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference
+        android:dialogTitle="See below..."
+        android:entries="@array/sample_rate"
+        android:entryValues="@array/sample_rate_values"
+        android:key="Sample Rate"
+        android:summary="Choose your sample rate record"
+        android:title="Sample Rate" />
+    <ListPreference
+        android:dialogTitle="See below..."
+        android:entries="@array/record_mode"
+        android:entryValues="@array/record_mode_values"
+        android:key="Record Mode"
+        android:summary="Set number of channels"
+        android:title="Record Mode" />
+    <ListPreference
+        android:dialogTitle="See below..."
+        android:entries="@array/frame_rate"
+        android:entryValues="@array/frame_rate_values"
+        android:key="Frame Rate"
+        android:summary="Choose frame rate (if your cpu is powerful enough, higher is better)"
+        android:title="Frame Rate Wave View" />
+    <ListPreference
+        android:entries="@array/fft_samples"
+        android:entryValues="@array/fft_samples_values"
+        android:key="FFT Samples"
+        android:title="Choose FFT number of samples" />
+
+</PreferenceScreen>

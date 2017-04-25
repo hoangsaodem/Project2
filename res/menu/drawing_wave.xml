@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.project2.DrawingWave" >
+
+    <item
+        android:id="@+id/cutItem"
+        android:orderInCategory="100"
+        android:title="Cut"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/zoomSize"
+        android:title="Zoom Size">
+        <menu>
+            <item android:id="@+id/size1" android:title="1"/>
+            <item android:id="@+id/size2" android:title="2"/>
+            <item android:id="@+id/size3" android:title="3"/>
+            <item android:id="@+id/size4" android:title="4"/>
+        </menu>
+    </item>
+
+</menu>

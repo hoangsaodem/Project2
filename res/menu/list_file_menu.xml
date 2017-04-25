@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.project2.ListFile" >
+
+    <item
+        android:id="@+id/fftMenu"
+        android:title="Fast Fourier Transform">
+    </item>
+    <item
+        android:id="@+id/waveMenu"
+        android:title="Draw Wave">
+    </item>
+    <item
+        android:id="@+id/playMenu"
+        android:title="Play"/>
+    <item
+        android:id="@+id/sonaMenu"
+        android:title="Sona View">
+    </item>
+    <item
+        android:id="@+id/deleteFile"
+        android:title="Delete">
+    </item>
+
+
+</menu>

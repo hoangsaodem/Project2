@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="sample_rate">
+        <item>8000</item>
+        <item>11025</item>
+        <item>22050</item>
+        <item>44100</item>
+    </string-array>
+    <string-array name="sample_rate_values">
+        <item>8000</item>
+        <item>11025</item>
+        <item>22050</item>
+        <item>44100</item>
+    </string-array>
+    <string-array name="record_mode">
+        <item>Mono ( 1 channels )</item>
+        <item>Stereo ( 2 channels )</item>
+    </string-array>
+    <string-array name="record_mode_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="frame_rate">
+        <item>60</item>
+        <item>30</item>
+        <item>25</item>
+        <item>20</item>
+        <item>10</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="frame_rate_values">
+        <item>60</item>
+        <item>30</item>
+        <item>25</item>
+        <item>20</item>
+        <item>10</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="fft_samples">
+        <item>256</item>
+        <item>512</item>
+        <item>1024</item>
+        <item>2048</item>
+    </string-array>
+    <string-array name="fft_samples_values">
+        <item>256</item>
+        <item>512</item>
+        <item>1024</item>
+        <item>2048</item>
+    </string-array>
+
+</resources>

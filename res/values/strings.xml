@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Project2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_list_file">ListFile</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_drawing_wave">Drawing Wave</string>
+    <string name="title_activity_record">Record</string>
+    <string name="title_activity_play">Play</string>
+    <string name="title_activity_fft">Fast Fourier Transform</string>
+    <string name="title_activity_sona">Sona Transform</string>
+
+</resources>
